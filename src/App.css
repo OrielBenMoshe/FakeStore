@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 26vmin;
   pointer-events: none;
 }
 
@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.App-body {
+  padding: 42px;
+}
+.product {
+  object-fit: contain;
+  box-shadow: rgb(0 0 0 / 13%) 0px 0px 30px;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 12px;
+}
+
+.product img {
+  width: 300px;
+  height: 300px;
+}
+
+button.btn.btn-primary {
+  display: block;
+  margin: auto;
+  margin-bottom: 26px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dark-mode {
+  background-color: #282c34;
+  color: white;
 }
